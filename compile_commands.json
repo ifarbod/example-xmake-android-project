@@ -1,0 +1,6 @@
+[
+{
+  "directory": "C:\\Users\\iFarbod\\AndroidStudioProjects\\MyApplicationCpp2",
+  "arguments": ["C:\\Users\\iFarbod\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe", "-c", "--sysroot=C:\\Users\\iFarbod\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot", "-I", "C:\\Users\\iFarbod\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\include\\i686-linux-android", "-Qunused-arguments", "-target", "i686-none-linux-android21", "-fPIC", "-Oz", "-std=c++20", "-Isrc", "-DNDEBUG", "-o", "app\\build\\xmake\\.objs\\myapplicationcpp2\\android\\x86\\release\\src\\native-lib.cpp.o", "src\\native-lib.cpp"],
+  "file": "src\\native-lib.cpp"
+}]
