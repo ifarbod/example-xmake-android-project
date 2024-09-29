@@ -24,9 +24,8 @@ target("myapplicationcpp2")
     add_files("src/**.cpp")
     add_includedirs("src/")
 
-    -- TODO(iFarbod): x64 too ?
-    -- if is_plat("android") and is_arch("arm64-v8a") then
-        -- add_ldflags("-z max-page-size=16384", {force = true})
-        -- add_cxflags("-Wl -z max-page-size=16384", {force = true})
-        add_ldflags("-z max-page-size=16384", {force = true})
-    -- end
+    if is_plat("android") then
+        if is_arch("arm64-v8a") or is_arch("x86_64") then
+            add_ldflags("-z max-page-size=16384", {force = true})
+        end
+    end
