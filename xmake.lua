@@ -25,7 +25,8 @@ target("myapplicationcpp2")
     add_includedirs("src/")
 
     if is_plat("android") then
-        if is_arch("arm64-v8a") or is_arch("x86_64") then
-            add_ldflags("-z max-page-size=16384", {force = true})
+        if is_arch("arm64-v8a", "x86_64") then
+            add_shflags("-z max-page-size=16384")
         end
     end
+
