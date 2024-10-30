@@ -30,7 +30,7 @@ android {
     namespace = "com.ifarbod.myapplicationcpp2"
     compileSdk = 35
 
-    ndkVersion = "27.1.12297006"
+    ndkVersion = "27.2.12479018"
 
     defaultConfig {
         applicationId = "com.ifarbod.myapplicationcpp2"
