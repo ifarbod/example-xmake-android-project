@@ -29,15 +29,15 @@ fun getCurrentBuildType(): String {
 
 android {
     namespace = "com.ifarbod.myapplicationcpp2"
-    compileSdk = 35
+    compileSdk = 36
 
-    buildToolsVersion = "35.0.0"
+    buildToolsVersion = "36.0.0"
     ndkVersion = "27.2.12479018"
 
     defaultConfig {
         applicationId = "com.ifarbod.myapplicationcpp2"
         minSdk = 21
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
