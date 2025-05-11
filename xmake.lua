@@ -1,4 +1,4 @@
-set_xmakever("2.9.6")
+set_xmakever("2.9.9")
 
 set_languages("c17", "cxx14")
 
