@@ -6,8 +6,8 @@ plugins {
     alias(libs.plugins.xmakeGradle)
 }
 
-//val SUPPORTED_ABIS = setOf("armeabi-v7a", "arm64-v8a", "riscv64", "x86", "x86_64")
-val SUPPORTED_ABIS = setOf("armeabi-v7a", "arm64-v8a", "x86", "x86_64")
+val SUPPORTED_ABIS = setOf("armeabi-v7a", "arm64-v8a", "riscv64", "x86", "x86_64")
+// val SUPPORTED_ABIS = setOf("armeabi-v7a", "arm64-v8a", "x86", "x86_64")
 
 fun getCurrentBuildType(): String {
     val tskReqStr = gradle.startParameter.taskRequests.toString()
