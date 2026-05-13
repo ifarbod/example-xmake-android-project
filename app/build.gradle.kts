@@ -2,7 +2,6 @@ import java.util.regex.Pattern
 
 plugins {
     alias(libs.plugins.androidApplication)
-    alias(libs.plugins.jetbrainsKotlinAndroid)
     alias(libs.plugins.xmakeGradle)
 }
 
